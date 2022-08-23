@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>weather</title>
+      <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <style media="screen">
+      img{
+        height:100px;
+      }
+      body{
+        background-color:#CDF0EA;
+        font-family:'Papyrus';
+
+
+      }
+      button{
+        background-color: #01a9b4;
+        position: relative;
+        left: 20px;
+        height:35px;
+        border-radius: 100%;
+        border-spacing: 0;
+        border-style: hidden;
+        border-color:#01a9b4/* inherit*/;
+        color:white;
+      }
+      input{
+        border-radius: 40%;
+        border-color: white;
+        border-style: hidden;
+        caret-color: #01a9b4;
+        column-rule-width: thick;
+        height:50px;
+        width:150px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <img src="weather-news.png"/>
+
+    <h1>THE TEMPERATURE IN <B>CITY </B> IS :</h1>
+    <br />
+    <form  action="/" method="post">
+      <input  type="text" name="city" placeholder="city">
+
+      <button type="submit" name="button">enter</button>
+    </form>
+    <!--<img class="variable" src="weather.png" />-->
+  </body>
+</html>
